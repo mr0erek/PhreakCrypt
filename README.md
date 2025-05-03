@@ -31,7 +31,7 @@ python3 pheakcrypt.py <operation> --algorithm <algorithm> --data <data> [options
 
 ### 1. Symmetric Encryption (AES)
 ```bash
-python crypto_tool.py encrypt --algorithm aes --data "Hello, World!"
+python3 phreakcrypt.py encrypt --algorithm aes --data "Hello, World!"
 ```
 > **Output**
 > `Encrypted: gAAAAABm... (base64-encoded string)
@@ -40,21 +40,21 @@ Key: b'X9f...==' (Fernet key)`
 ### 2. Decryption (AES) Decrypt AES-encrypted data using the provided key.
 
 ```bash
-python crypto_tool.py decrypt --algorithm aes --key "X9f...==" --data "gAAAAABm..."
+python3 phreakcrypt.py decrypt --algorithm aes --key "X9f...==" --data "gAAAAABm..."
 ```
 > **Output**
 >  `Decrypted: Hello, World!`
 ##
 ### 3. Encoding (Base64) Encode text to Base64.
 ```bash
-python crypto_tool.py encode --encoding base64 --data "Hello, World!"
+python3 phreakcrypt.py encode --encoding base64 --data "Hello, World!"
 ```
 > **Output**
 > -> Encoded: SGVsbG8sIFdvcmxkIQ==
 ##
 ### 4. Hashing (SHA-256)
 ```bash
-python crypto_tool.py hash --algorithm sha256 --data "Hello, World!"
+python3 phreakcrypt.py hash --algorithm sha256 --data "Hello, World!"
 ```
 > **Output**
 > -> Hashed: dffd6021bb2bd5b0af676290809ec3a53191dd81c7f70a4b28688a362182986f
@@ -63,7 +63,7 @@ python crypto_tool.py hash --algorithm sha256 --data "Hello, World!"
 Deobfuscate Caesar cipher text with a shift of 3.
 
 ```bash 
-python crypto_tool.py obfuscate --shift 3 --data "Hello, World!"
+python3 phreakcrypt.py obfuscate --shift 3 --data "Hello, World!"
 ```
 > **Output**
 > -> Deobfuscated: Hello, World!
@@ -73,6 +73,6 @@ python crypto_tool.py obfuscate --shift 3 --data "Hello, World!"
 ### 6. Vector Encryption (Property-Preserving Encryption - PPE) Encrypt a vector (e.g., AI embedding) using simulated PPE, preserving relative distances.
 
 ```bash 
-python crypto_tool.py decrypt_vector --algorithm ale --key "X9f...==" --data "gAAAAABm..."
+python3 phreakcrypt.py decrypt_vector --algorithm ale --key "X9f...==" --data "gAAAAABm..."
 ```
 #### Sooner will update with more examples

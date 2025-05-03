@@ -1,6 +1,6 @@
 # PhreakCrypt
 
-Welcome to **PhreakCrypt**, a powerful all-in-one Python tool for cryptographic operations with a hacking edge. It supports encryption, decryption, encoding, decoding, hashing, obfuscation, and vector-based encryption for AI embeddings, making it ideal for cybersecurity enthusiasts, developers, and AI practitioners. Whether you're securing sensitive data or protecting AI embeddings for similarity searches, CyberCrypt has you covered with a sleek, hacker-inspired interface.
+Welcome to **PhreakCrypt**, a powerful all-in-one Python tool for cryptographic operations with a hacking edge. It supports encryption, decryption, encoding, decoding, hashing, obfuscation, and vector-based encryption for AI embeddings, making it ideal for cybersecurity enthusiasts, developers, and AI practitioners. Whether you're securing sensitive data or protecting AI embeddings for similarity searches, PhreakCrypt has you covered with a sleek, hacker-inspired interface.
 
 ## Installation
 
@@ -33,3 +33,46 @@ python3 pheakcrypt.py <operation> --algorithm <algorithm> --data <data> [options
 ```bash
 python crypto_tool.py encrypt --algorithm aes --data "Hello, World!"
 ```
+> **Output**
+> `Encrypted: gAAAAABm... (base64-encoded string)
+Key: b'X9f...==' (Fernet key)`
+##
+### 2. Decryption (AES) Decrypt AES-encrypted data using the provided key.
+
+```bash
+python crypto_tool.py decrypt --algorithm aes --key "X9f...==" --data "gAAAAABm..."
+```
+> **Output**
+>  `Decrypted: Hello, World!`
+##
+### 3. Encoding (Base64) Encode text to Base64.
+```bash
+python crypto_tool.py encode --encoding base64 --data "Hello, World!"
+```
+> **Output**
+> -> Encoded: SGVsbG8sIFdvcmxkIQ==
+##
+### 4. Hashing (SHA-256)
+```bash
+python crypto_tool.py hash --algorithm sha256 --data "Hello, World!"
+```
+> **Output**
+> -> Hashed: dffd6021bb2bd5b0af676290809ec3a53191dd81c7f70a4b28688a362182986f
+##
+### 5. Deobfuscation (Caesar Cipher)
+Deobfuscate Caesar cipher text with a shift of 3.
+
+```bash 
+python crypto_tool.py obfuscate --shift 3 --data "Hello, World!"
+```
+> **Output**
+> -> Deobfuscated: Hello, World!
+
+##
+
+### 6. Vector Encryption (Property-Preserving Encryption - PPE) Encrypt a vector (e.g., AI embedding) using simulated PPE, preserving relative distances.
+
+```bash 
+python crypto_tool.py decrypt_vector --algorithm ale --key "X9f...==" --data "gAAAAABm..."
+```
+#### Sooner will update with more examples

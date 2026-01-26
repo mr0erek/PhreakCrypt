@@ -1,3 +1,6 @@
+> [!NOTE]
+> **This whole project is done via vibe-coding, expect [Exmaples Demo](#-Examples) and this message**
+
 # PhreakCrypt
 
 Welcome to **PhreakCrypt**, a powerful all-in-one Python tool for cryptographic operations with a hacking edge. It supports encryption, decryption, encoding, decoding, hashing, obfuscation, and vector-based encryption for AI embeddings, making it ideal for cybersecurity enthusiasts, developers, and AI practitioners. Whether you're securing sensitive data or protecting AI embeddings for similarity searches, PhreakCrypt has you covered with a sleek, hacker-inspired interface.

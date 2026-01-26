@@ -1,5 +1,5 @@
 > [!NOTE]
-> **This whole project is done via vibe-coding, expect [Exmaples Demo](#-Examples:) and this message**
+> **This whole project is done via vibe-coding, expect [Exmaples Demo](#-Examples) and this message**
 
 # PhreakCrypt
 
@@ -30,7 +30,7 @@ python3 pheakcrypt.py <operation> --algorithm <algorithm> --data <data> [options
 > encrypt, decrypt, encode, decode, hash, obfuscate, deobfuscate, encrypt_vector, and decrypt_vector. Options vary by operation, such as --algorithm, --encoding, --shift, --key, and --data.
 ##
 
-# Examples:
+# Examples
 
 ### 1. Symmetric Encryption (AES)
 ```bash

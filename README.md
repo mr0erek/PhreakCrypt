@@ -1,5 +1,5 @@
 > [!NOTE]
-> **This whole project is done via vibe-coding, expect [Exmaples Demo](#-Examples) and this message**
+> **This whole project is done via vibe-coding, except [Example Demo](#examples) and this message**
 
 # PhreakCrypt
 
